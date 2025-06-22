@@ -1,0 +1,16 @@
+{
+    "name": "somecode/php-framework",
+    "autoload": {
+        "psr-4": {
+            "Somecode\\Framework\\": "framework",
+            "App\\" : "app"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.3",
+        "laravel/pint": "^1.22"
+    },
+    "require": {
+        "nikic/fast-route": "^1.3"
+    }
+}
